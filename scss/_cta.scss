@@ -1,0 +1,19 @@
+.cta {
+  background-color: color(primary-darkviolet);
+  background-image: url(../images/bg-boost-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  h2 {
+      color: #fff;
+      margin: 100px 0 20px;
+  }
+
+  a {
+      margin-bottom: 80px;
+  }
+}

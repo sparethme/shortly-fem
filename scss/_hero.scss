@@ -1,0 +1,40 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1f;
+  background: #fff;
+
+  .hero-image {
+      position: relative;
+      grid-row: 1 / 2;
+      width: 100vw;
+      height: 384px;
+      overflow: hidden;
+
+
+      img {
+          position: absolute;
+          height: 310px;
+          left: 30px;
+      }
+  }
+
+  .hero-text {
+      grid-row: 2 / 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      h1 {
+          margin-bottom: 20px;
+          line-height: 2.9rem;
+          width: 315px;
+      }
+
+      p {
+          font-size: 1.1rem;
+          width: 315px;
+          margin-bottom: 20px;
+      }
+  }
+}

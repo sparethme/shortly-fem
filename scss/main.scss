@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,600,700&display=swap');
+
+@import "variables"; 
+
+/* universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background: #fff;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: color(neutral-vdarkviolet);
+}
+
+.links-title {font-weight: 700;}
+
+p, a {font-weight: 500;}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1.6rem ;
+}
+h3 {
+    font-size: 1.3rem;
+}
+p {
+    font-size: 1rem;
+    color: color(neutral-grayviolet);
+}
+a {
+    font-size: .9rem;
+    color: color(neutral-grayviolet);
+    text-decoration: none;
+}
+.links-title {
+    font-size: .9rem;
+    color: #fff;
+}
+
+.btn-cyan {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    color: #fff;
+    background-color: color(primary-cyan);
+    padding: 16px 40px;
+    border-radius: 40px;
+}
+
+.btn-cyan:hover {
+    background-color: lighten(color(primary-cyan), 15%);
+}
+
+/* header section */
+
+@import 'menu';
+
+/* hero section */
+
+@import 'hero';
+
+/* URL shorten section */
+
+@import 'shorten';
+
+/* short-links */
+
+@import 'shortlinks';
+
+/* Features Section */
+
+@import 'features';
+
+
+/* CTA section */
+
+@import 'cta';
+
+/* footer section */
+
+@import 'footer';
+
+/* Media Queries */
+
+@import 'mixins';

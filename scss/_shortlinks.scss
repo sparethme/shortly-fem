@@ -1,0 +1,59 @@
+.short-links {
+  background: #F0F1F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 20px 0 0;
+      width: 100%;
+      max-width: 325px;
+      height: max-content;
+      border-radius: 10px;
+      background: #fff;
+
+      .item-link {
+          margin: 0px 0px;
+          cursor: pointer;
+          color: color(neutral-vdarkviolet);
+          width: 100%;
+          border-bottom: 1px solid color(neutral-gray);
+          padding: 15px 15px;
+      }
+
+      .item-shortlink {
+          padding: 15px 15px;
+          cursor: pointer;
+          color: color(primary-cyan);
+      }
+
+      .copy-btn {
+          align-self: center;
+          width: 295px;
+          height: 40px;
+          margin: 0px 0px 15px;
+          border: none;
+          background-color: color(primary-cyan);
+          border-radius: 5px;
+          color: #fff;
+          font-size: 1rem;
+          font-weight: 700;
+          cursor: pointer;
+      }
+
+      .copy-btn:hover {
+          background-color: lighten(color(primary-cyan), 15%);
+      }
+
+      .copied-btn {
+          background-color: color(primary-darkviolet);
+      }
+
+      .copied-btn:hover {
+          background-color: lighten(color(primary-darkviolet), 15%);
+      }
+  }
+}
